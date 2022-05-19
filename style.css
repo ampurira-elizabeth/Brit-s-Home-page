@@ -1,34 +1,41 @@
-.bars{
-  margin-left: 40%;
+.bars {
+    margin-left: 40%;
 }
-.bars a:hover{
+
+.bars a:hover {
     color: rgb(5, 44, 7);
     background-color: rgb(13, 163, 13);
-   height: 2px; 
+    height: 2px;
 }
-.bars a{
+
+.bars a {
     padding: 6%;
     color: white;
 }
-.headings{
+
+.headings {
     display: flex;
     margin-left: 3%;
 }
-.headings h1{
+
+.headings h1 {
     font-size: 300%;
 }
-.headings img{
+
+.headings img {
     padding-top: 4%;
     margin-top: 3%;
     border: 1px solid;
-     padding: 1px 1px 1px 1px; 
-    
+    padding: 1px 1px 1px 1px;
+
 }
-.h6{
+
+.h6 {
     margin-left: 10%;
-   margin-top: -5%;
+    margin-top: -5%;
 }
-.sec1{
+
+.sec1 {
     background-image: url(images/gla.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,194 +43,233 @@
     opacity: 90%;
     color: white;
 }
-.about{
+
+.about {
     text-align: center;
 }
-.offers{
+
+.offers {
     display: flex;
 }
-.offer2{
+
+.offer2 {
     display: flex;
 }
-.sec2{
-   background-color: rgb(248, 244, 244);
+
+.sec2 {
+    background-color: rgb(248, 244, 244);
 }
-.off1{
+
+.off1 {
     margin-left: 10%;
 }
-.fa-crown{
+
+.fa-crown {
     background-color: rgb(51, 50, 50);
     border-radius: 50%;
     padding: 10%;
     color: yellow;
     box-shadow: 2px 2px 2px 2px yellow;
 }
-.fa-angellist{
+
+.fa-angellist {
     background-color: rgb(51, 50, 50);
     border-radius: 50%;
     padding: 10%;
     color: yellow;
     box-shadow: 2px 2px 2px 2px yellow;
 }
-.fa-canadian-maple-leaf{
+
+.fa-canadian-maple-leaf {
     background-color: rgb(51, 50, 50);
     border-radius: 50%;
     padding: 10%;
     color: yellow;
     box-shadow: 2px 2px 2px 2px yellow;
 }
-.fa-centos{
+
+.fa-centos {
     background-color: rgb(51, 50, 50);
     border-radius: 50%;
     padding: 10%;
     color: yellow;
     box-shadow: 2px 2px 2px 2px yellow;
 }
-.fa-fly{
+
+.fa-fly {
     background-color: rgb(51, 50, 50);
     border-radius: 50%;
     padding: 10%;
     color: yellow;
     box-shadow: 2px 2px 2px 2px yellow;
 }
-.fa-wifi{
+
+.fa-wifi {
     background-color: rgb(51, 50, 50);
     border-radius: 50%;
     padding: 10%;
     color: yellow;
     box-shadow: 2px 2px 2px 2px yellow;
 }
-.fa-twitter{
+
+.fa-twitter {
     box-shadow: 2px 2px 2px 2px pink;
     margin-left: 2%;
 }
-.fa-twitter:hover{
+
+.fa-twitter:hover {
     border: 2px solid yellow;
 }
-.fa-facebook{
+
+.fa-facebook {
     box-shadow: 2px 2px 2px 2px pink;
     margin-left: 2%;
 }
-.fa-facebook:hover{
+
+.fa-facebook:hover {
     border: 2px solid yellow;
 }
-.fa-facebook-messenger{
+
+.fa-facebook-messenger {
     box-shadow: 2px 2px 2px 2px pink;
     margin-left: 2%;
 }
-.fa-facebook-messenger:hover{
+
+.fa-facebook-messenger:hover {
     border: 2px solid yellow;
 }
-.fa-gofore{
+
+.fa-gofore {
     box-shadow: 2px 2px 2px 2px pink;
     margin-left: 3%;
 }
-.fa-gofore:hover{
+
+.fa-gofore:hover {
     border: 2px solid yellow;
 }
-.off4{
+
+.off4 {
     margin-left: 15%;
 }
-.off3{
+
+.off3 {
     margin-left: 15%;
 }
-.off2{
+
+.off2 {
     margin-left: 15%;
 }
-.off4{
+
+.off4 {
     margin-left: 10%;
     margin-top: 5%;
 }
-.off6{
-    margin-left:15%;
-    margin-top: 5%;
-}
-.off5{
+
+.off6 {
     margin-left: 15%;
     margin-top: 5%;
 }
-.menu{
+
+.off5 {
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.menu {
     display: flex;
     margin-left: 4%;
 }
-.menu1 h5{
+
+.menu1 h5 {
     background-color: rgb(202, 198, 178);
     height: 10%;
     width: 120%;
     text-align: center;
     padding-top: 2%;
     border-radius: 10px;
-    
-}
-.menu2{
-    margin-left: 10%;
-}
-.menu3{
-    margin-left: 10%;
-}
-section.foot{
-    background-color: rgb(58, 58, 58); 
-}
-footer{
- display: flex;
- margin-left: 10%;
- color: white;
- 
-}
-.category{
-    margin-left: 15%; 
 
 }
-.post{
-    margin-left: 15%; 
+
+.menu2 {
+    margin-left: 10%;
 }
-.social{
-    margin-left: 15%; 
-   
+
+.menu3 {
+    margin-left: 10%;
 }
-.gallery{
-  
+
+section.foot {
+    background-color: rgb(58, 58, 58);
+}
+
+footer {
+    display: flex;
+    margin-left: 10%;
+    color: white;
+
+}
+
+.category {
+    margin-left: 15%;
+
+}
+
+.post {
+    margin-left: 15%;
+}
+
+.social {
+    margin-left: 15%;
+
+}
+
+.gallery {
+
     background-color: rgb(221, 148, 53);
     padding: 1% 1% 1% 1%;
 }
-#img1{
+
+#img1 {
     box-shadow: 2px 2px yellow;
 }
- #img3{
-    margin-left:6%;
-    box-shadow: 2px 2px yellow;
-}
-#img2{
+
+#img3 {
     margin-left: 6%;
     box-shadow: 2px 2px yellow;
-} 
-#img4{
+}
+
+#img2 {
     margin-left: 6%;
     box-shadow: 2px 2px yellow;
-} 
-.rashford{
-   display: flex;
 }
-.fenandez{
+
+#img4 {
+    margin-left: 6%;
+    box-shadow: 2px 2px yellow;
+}
+
+.rashford {
+    display: flex;
+}
+.fenandez {
     display: flex;
     margin-top: 10%;
 }
-.rashford img{
+.rashford img {
     background-color: rgb(226, 162, 23);
     border-radius: 10px;
     margin-top: 5%;
     box-shadow: 2px 2px yellow;
 }
-.fenandez img{
+.fenandez img {
     background-color: rgb(226, 162, 23);
     border-radius: 10px;
     margin-top: 5%;
-    box-shadow: 2px 2px yellow; 
+    box-shadow: 2px 2px yellow;
 }
-.rashford h5{
+.rashford h5 {
     margin-left: 4%;
 }
-.fenandez h5{
+.fenandez h5 {
     margin-left: 4%;
 }
-
