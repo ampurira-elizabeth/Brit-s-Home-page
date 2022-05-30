@@ -1,11 +1,91 @@
 .bars {
     margin-left: 40%;
+
+    cursor: pointer;
+
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+@media(max-width:700px) {
+    .sec1 {
+        background-image: url(images/gla.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200%;
+        opacity: 90%;
+        color: white;
+    }
+
+    .bars {
+        /* margin-left: 40%;  */
+        display: inline;
+        transition: 2s;
+        cursor: pointer;
+        text-rendering: geometricPrecision;
+    }
+
+    .menu2 {
+        margin-right: -10%;
+        display: inline;
+    }
+
+    .menu2 img {
+        width: 200px;
+        margin-left: -5%;
+    }
+
+    .gallery {
+        background-color: #f7b42c;
+        background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+        padding: 10% 10% 10% 10%;
+
+    }
+
+    #img1 {
+        box-shadow: 2px 2px yellow;
+        margin-left: 10%;
+    }
+
+    #img3 {
+        margin-left: 6%;
+        box-shadow: 2px 2px yellow;
+    }
+
+    #img2 {
+        margin-right: 6%;
+        box-shadow: 2px 2px yellow;
+    }
+
+    #img4 {
+        box-shadow: 2px 2px yellow;
+    }
+
+    footer {
+        display: flex;
+        margin-left: -20%;
+        color: white;
+        background-color: #537895;
+        background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+
+    }
+
+    .social i {
+        margin-left: -10%;
+        display: grid;
+
+    }
+
 }
 
 .bars a:hover {
     color: rgb(5, 44, 7);
     background-color: rgb(13, 163, 13);
     height: 2px;
+    transition: 2s;
 }
 
 .bars a {
@@ -42,6 +122,11 @@
     height: 400%;
     opacity: 90%;
     color: white;
+}
+
+.glass {
+    margin-left: 40%;
+    margin-top: 7%;
 }
 
 .about {
@@ -110,11 +195,13 @@
     padding: 10%;
     color: yellow;
     box-shadow: 2px 2px 2px 2px yellow;
+    cursor: pointer;
 }
 
 .fa-twitter {
     box-shadow: 2px 2px 2px 2px pink;
     margin-left: 2%;
+    cursor: pointer;
 }
 
 .fa-twitter:hover {
@@ -124,6 +211,7 @@
 .fa-facebook {
     box-shadow: 2px 2px 2px 2px pink;
     margin-left: 2%;
+    cursor: pointer;
 }
 
 .fa-facebook:hover {
@@ -133,6 +221,7 @@
 .fa-facebook-messenger {
     box-shadow: 2px 2px 2px 2px pink;
     margin-left: 2%;
+    cursor: pointer;
 }
 
 .fa-facebook-messenger:hover {
@@ -142,6 +231,7 @@
 .fa-gofore {
     box-shadow: 2px 2px 2px 2px pink;
     margin-left: 3%;
+    cursor: pointer;
 }
 
 .fa-gofore:hover {
@@ -251,25 +341,30 @@ footer {
 .rashford {
     display: flex;
 }
+
 .fenandez {
     display: flex;
     margin-top: 10%;
 }
+
 .rashford img {
     background-color: rgb(226, 162, 23);
     border-radius: 10px;
     margin-top: 5%;
     box-shadow: 2px 2px yellow;
 }
+
 .fenandez img {
     background-color: rgb(226, 162, 23);
     border-radius: 10px;
     margin-top: 5%;
     box-shadow: 2px 2px yellow;
 }
+
 .rashford h5 {
     margin-left: 4%;
 }
+
 .fenandez h5 {
     margin-left: 4%;
 }
